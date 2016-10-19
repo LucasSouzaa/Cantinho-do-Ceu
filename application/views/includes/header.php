@@ -74,6 +74,18 @@
                 </ul>
               </li>
 
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-medkit"></i> Farmácia<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li>
+                    <a href="<?= $this->config->base_url('index.php/farmacia/entrada') ?>"><i class="fa fa-plus-square"></i>Entrada de medicamento/material</a>
+                  </li>
+                  <li>
+                    <a href="<?= $this->config->base_url('index.php/farmacia/saida') ?>"><i class="fa fa-plus-square"></i>Saída de medicamento/material</a>
+                  </li>
+                </ul>
+              </li>
+
             </ul> <!-- FIM DO MENU ESQUERDO -->
           </div>
 
