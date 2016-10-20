@@ -300,7 +300,7 @@
 								validade:</label>
 							<div class="col-sm-2">
 								<input type="date" class="form-control"
-									id="dataValidadeMaterial placeholder=">
+									id="dataValidadeMaterial placeholder=''>
 							</div>
 							
 							<label for="inputUser" class="col-sm-2 control-label">Lote:</label>

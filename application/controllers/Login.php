@@ -30,12 +30,14 @@ class Login extends CI_Controller {
                     'logged' => TRUE,
                     'id' => $user['id'],
                     'name' => $user['nome'],
-                    'email' => $user['email']
+                    'email' => $user['email'],
+                    'type' => $user['tipo']
                 )
             );
             $this->session->set_userdata($session);
             //login com sucesso
             $status = "OK";
+            $type = $user['tipo'];
             $message = '';
             if ($remember == 'true') {
                 /* Set cookie to last 1 year */
@@ -52,7 +54,8 @@ class Login extends CI_Controller {
 
         echo json_encode(array(
             'status' => $status,
-            'message' => $message
+            'message' => $message,
+            'type'   => $type
         ));
         exit;
     }
@@ -61,6 +64,5 @@ class Login extends CI_Controller {
         $this->session->sess_destroy();
         $this->load->view('login');
     }
-
 }
 ?>

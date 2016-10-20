@@ -27,7 +27,11 @@
         <form method="post" action="#" role="login">
         <div class="alert alert-danger" id="alert-user" role="alert">
           <i class="fa fa-warning"></i>
-          Usuario ou senha incorretos
+          Usuário ou senha incorreto.
+        </div>
+        <div class="alert alert-danger" id="alert-user2" role="alert">
+          <i class="fa fa-warning"></i>
+          Tipo de usuário não cadastrado.
         </div>
           <div class="form-group has-feedback">
             <input type="text" id="username" class="form-control" placeholder="Usuario" name="username">
@@ -75,6 +79,7 @@
     <script src="<?= $this->config->base_url('assets/js/login.js') ?>"></script>
     <script>
       $('#alert-user').hide();
+      $('#alert-user2').hide();
     </script>
     <script>
       $(function () {

@@ -1,5 +1,7 @@
 <?php
       $this->load->view('includes/header.php');
+      $this->load->view('administrator/menu_bar.php');
+
 ?>
       <div class="content-wrapper">
         <!-- Content Header (Page header) -->
