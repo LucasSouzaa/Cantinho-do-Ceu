@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/10/2016, 21:24:41
+    Author     : marianabm
+*/
+
+.msg-danger {
+  background-color: #fc8675 !important;
+  color: #fff !important;
+}
+
+.msg-warning {
+  background-color: #f3ce85;
+  color: #fff;
+}
+.msg-info {
+  background-color: #6bafbd;
+  color: #fff;
+}
+.msg-success {
+  background-color: #65cea7;
+  color: #fff;
+}
+
+.panel-stat1 {
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+.panel-stat1:hover .title {
+  transform: scale(0.85);
+  -webkit-transform: scale(0.85);
+  -moz-transform: scale(0.85);
+  -ms-transform: scale(0.85);
+  -o-transform: scale(0.85);
+  transition: transform 0.4s ease;
+  -webkit-transition: -webkit-transform 0.4s ease;
+  -moz-transition: -moz-transform 0.4s ease;
+  -ms-transition: -ms-transform 0.4s ease;
+  -o-transition: -o-transform 0.4s ease;
+}
+.panel-stat1 .title {
+  font-size: 16px;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
