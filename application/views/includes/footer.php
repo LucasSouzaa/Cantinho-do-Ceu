@@ -1,6 +1,6 @@
-<footer class="main-footer">
-	<div class="pull-right hidden-xs">
-	  <b>Versao</b> 1.0
+<footer class="main-footer col-md-12">
+	<div class="pull-right">
+	  <b>Versão</b> 1.0
 	</div>
 	<strong>Copyright &copy; 2016-2017 <a href="http://infobiojr.com.br">InfoBioJR</a>.</strong> All rights reserved.
 </footer>
